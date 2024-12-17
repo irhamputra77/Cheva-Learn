@@ -1,0 +1,34 @@
+bagian pada CSS
+- header(navbar)
+- footer
+- aside (sidebar)
+- main
++ block vs inline
++positioning
+  - static
+  - realtive
+  - absolute
+  - fixed 
+  - sticky
++ boxmodel
+  - area konten
+  - area padding
+  - border
+  - margin
+  - position
+  + flex vs grid
+  flex main properti
+    - display : flex;
+    - flex-direction 
+    - justify-content
+    - align-items
+    - flex-warp
+    - gap
+  grid main properti
+    - display : grid;
+    - grid-template-rows
+    - frid-template-columns
+    - gap
+    - grid-column & grid-row 
+    - grid-template-area
+
