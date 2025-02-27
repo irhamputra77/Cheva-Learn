@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h2 {
+    margin-right: 86%;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-container button {
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.list-task {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container-tugas {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.container-tugas h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.container-tugas p {
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.container-tugas button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.note {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: left;
+}
+
+.note h3 {
+    margin: 0 0 0;
+    font-size: 28px;
+    color: #000000;
+}
+
+.desc-task {
+    margin: 0.4rem 0 0;
+    color: rgb(78, 76, 76);
+    font-size: 17px;
+}
+
+.Deadline-task {
+    margin: 0 0 1rem;
+    color: #666;
+}
+
+.note button {
+    background-color: #d45c44;
+    ;
+    color: #f4f4f4;
+    padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.note button:hover {
+    background-color: #d45c44;
+    ;
+}
+
+#list-task {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
